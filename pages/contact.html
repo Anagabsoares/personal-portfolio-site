@@ -14,16 +14,32 @@
         <ul class="home-nav">
             <li class ="push"><a href="home.html">Home</a></li>
             <li class="push"><a href="about.html">About</a></li>    
-            <li class="push"><a href="portfolio.html">Project</a></li>    
+            <li class="push"><a href="portfolio.html">Projects</a></li>    
             <li class="push"><a href="contact.html">Contact</a></li>   
         </ul>
     </nav>
   </header>
 
-  <main>
-      <h2>My projects</h1>
-      <p> etc.. </p>
+  <section  class="contact-title">
+    <h1> Contact me </h1>
+  </section>
+
+  <main class="form-container">
+    <form action="future-url">
+
+      <label for="first-name">Name</label>
+      <input type="text" id="first-name" name="name" placeholder="Your name..">
+    
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="@">
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
   </main>
+
   <footer class="footer">
     <p>©Copyright 2021 by Ana Gabriele Singh. All rights reserved.</p> 
   </footer>
