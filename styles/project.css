@@ -33,6 +33,7 @@
     color: gray;
     font-size: 400%;
     margin-top: 10%;
+    margin: 10% 10% 0% 10%;
 }
 
 @media only screen and (max-width: 1200px){
