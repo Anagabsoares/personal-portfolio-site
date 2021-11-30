@@ -1,3 +1,0 @@
-- How can I refactor the code without repeating the  footer and nav for example 
-- How to position the nav bar at the top of the page.
-- Should I create a parent grid container  where all  the elements  in the page are children?
